@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom right, #111827, #1F2937);
+}
+.ant-layout {
+  /* display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0; */
+  background: transparent;
+  
+}
+
+.sidebar {
+  border-radius: 12px;
+  background-color: #08080A !important;
+  box-shadow: #1F2937;
+  /* border-right: 1px solid #374151; */
+}
+
+.sidebar-menu {
+  background-color: transparent;
+}
+
+.sidebar-menu .ant-menu-item {
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.sidebar-menu .ant-menu-item-selected {
+  background-color: #374151 !important;
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-progress .ant-progress-inner {
+  background-color: #4B5563;
+}
+
+.ant-btn-primary {
+  background-color: #8B5CF6;
+}
+
+.ant-input-search .ant-input {
+  background-color: #374151;
+  border-color: #4B5563;
+}
+
+.ant-input-search .ant-input-search-button {
+  background-color: #4B5563;
+  border-color: #4B5563;
+}
+
+.ant-list-item {
+  border-bottom: none !important;
+}
+
+.ant-typography {
+  color: inherit;
+}
